@@ -175,7 +175,7 @@ else if (i===8){
 }
 else if (i===9){
 	document.view.qnum.value=i;
-	document.view.question.value ="Which spell is not evocation? \nA) Phantom Steed  \nB)Cure Wounds \nC)Blinding Smite  \nD)Wrath of Nature";
+	document.view.question.value ="Which spell is not evocation? \nA)Phantom Steed  \nB)Cure Wounds \nC)Blinding Smite  \nD)Wrath of Nature";
     document.view.qans.value=""
 }
 else if (i===10){
