@@ -5,7 +5,7 @@ body{
   font-family:Courier New;
 }
 
-p a{
+a {
   text-decoration:underline overline;
   color:#42d1f4;
 }
