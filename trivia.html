@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Quiz</title>
+  <script src="trivia.js"> </script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+
+	<form name="view" >
+    <p id= "text"></p>
+    <p id= "optiona"></p>
+		<p id= "optionb"></p>
+		<p id= "optionc"></p>
+		<p id= "optiond"></p>
+		<p id= "qnum">Question: 1</p>
+    <p id= "score">Score: 0</p>
+    Answer:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="qans" size="2">
+    <br>
+		<br>
+    <input type="button" name="go" value=" Next Question" onClick=main() class="button">&nbsp;&nbsp;
+    <input type="button" value="Submit Answer" onClick=submitAnswer() class="button">
+    <br>
+		<img class="image" src="images/1.png" alt="IMG1" name="mainImage">
+
+		<embed loop="true" src="music.mp3" hidden="true" autostart="true"></embed>
+	</form>
+
+</body>
+
+</html>
