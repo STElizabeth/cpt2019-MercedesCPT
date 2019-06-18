@@ -5,6 +5,7 @@ body {
   width:400px;
   height: auto;
   background-image: url("images/Background.jpg");
+  background-size: 370px auto;
   
 }
 #options{
