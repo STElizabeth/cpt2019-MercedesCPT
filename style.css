@@ -1,0 +1,40 @@
+body {
+  font-family: "Courier New";
+  color:white;
+  background-repeat: no-repeat;
+  width:400px;
+  height: auto;
+  background-image: url("images/Background.jpg");
+  background-size: 370px auto;
+}
+#options{
+    font-size: 13px;
+}
+#text{
+    font-size: 15px;
+}
+
+
+::selection{
+  color:white;
+  background: #3ccdf9;
+}
+
+.image{
+  margin: 0px 0px 0px 20px;
+  border:5px solid #3ccdf9;
+  width: 200px;
+  height: auto;
+}
+.button {
+  background-color: #222222;
+  border: none;
+  color: white;
+  padding: 7px 5px 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Courier New";
+  font-size: 13px;
+  margin: 0px 4px 4px 0px;
+  cursor: pointer;
+}
